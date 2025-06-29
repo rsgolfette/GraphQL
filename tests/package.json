@@ -1,0 +1,18 @@
+{
+  "name": "minha-api-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "cypress": "^14.5.0",
+    "express": "^4.21.2",
+    "graphql": "^16.11.0"
+  }
+}
