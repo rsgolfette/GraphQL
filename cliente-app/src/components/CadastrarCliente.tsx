@@ -34,10 +34,10 @@ export default function CadastrarCliente(){
     }
 
  return (
-    <div className="p-4 max-w-md mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Cadastrar Cliente</h1>
+    <div className="p-4 max-w-md mx-auto" data-testid="cadastro-page">
+      <h1 className="text-2xl font-bold mb-4" data-testid="Titulo">Cadastrar Cliente</h1>
       <form onSubmit={handleSubmit}>
-        <input
+        <input data-testid="insereNome"
           type="text"
           placeholder="Nome do cliente"
           value={nome}
@@ -45,7 +45,7 @@ export default function CadastrarCliente(){
           className="border p-2 rounded w-full mb-3"
         />
         <button
-          type="submit"
+          type="submit" data-testid="botaoInserir"
           className="bg-blue-600 text-white px-4 py-2 rounded w-full"
           disabled={loading}
         >
